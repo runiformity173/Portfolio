@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>All Websites</title>
+    <meta name="description" content="Menu of all websites made by me, including D&D and random simulations">
+    <meta name="author" content="runiformity173">
+    <link href="bootstrap.css" rel="stylesheet" type="text/css" />
+    <meta name="google-site-verification" content="wOtQZi6XXJ9iwX_n9vloYKzPJJZUmhh12DTSKKoLAac" />
+    <style>
+        body {
+            background-color: #121212;
+            color: #f8f9fa;
+        }
+
+        .portfolio-header {
+            text-align: center;
+            margin: 40px 0 20px;
+        }
+
+        .card {
+            background-color: #1e1e1e;
+            border: none;
+            color: #f8f9fa;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 20px rgba(0, 0, 0, 0.6);
+        }
+
+        .card .img-container {
+            height: 200px;
+            object-fit: cover;
+            overflow: hidden;
+        }
+
+        .card img {
+            height: 200px;
+            object-fit: cover;
+            transition: 1s ease-out;
+        }
+
+        .card img:hover {
+            transform: scale(1.1) rotate(3deg);
+        }
+
+        .btn-primary {
+            background-color: #0d6efd;
+            border: none;
+        }
+
+        .btn-primary:hover {
+            background-color: #0b5ed7;
+        }
+    </style>
+</head>
+
+<body class="bg-dark text-light">
+    <!-- Header -->
+    <div class="portfolio-header">
+        <h1 class="fw-bold">Eli's Portfolio</h1>
+        <p class="text-secondary">A collection of my favorite projects and websites, from most to least impressive.</p>
+    </div>
+
+    <!-- Card Grid -->
+    <div class="container">
+        <div class="row g-4" id="card-container"></div>
+    </div>
+    <script src="script.js"></script>
+    <script src="bootstrap.js"></script>
+</body>
+
+</html>
