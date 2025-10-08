@@ -1,6 +1,7 @@
 const data = [
-    ["Collision Simulator","This is a simple physics engine that I implemented from scratch with the Verlet integration technique for motion. Link balls with fixed-length connections and throw things around.","https://runiformity173.github.io/misc/Collisions","image"],
-    ["Sorting Algorithm Visualizer","Visualize the efficiency and individual moves of various sorting algorithms — now with satisfying sounds!","https://runiformity173.github.io/misc/SortingAlgorithms","image"],
+    ["Collision Simulator","This is a simple physics engine that I implemented from scratch with the Verlet integration technique for motion. Link balls with fixed-length connections and throw things around.","https://runiformity173.github.io/misc/Collisions","collisions1"],
+    ["Sorting Algorithm Visualizer","Visualize the efficiency and individual moves of various sorting algorithms — now with satisfying sounds!","https://runiformity173.github.io/misc/SortingAlgorithms","sorting1"],
+    ["Fantasy Map Generator","Procedurally generates a map with biomes, rainfall, and elevation. Then, it populates it with states that claim territory according to their fortes.","https://runiformity173.github.io/MapGenerator/","map1"],
     ["Test","this card is just a test for a website, the website will be added later","https://runiformity173.github.io/","image"],
     ["Test","this card is just a test for a website, the website will be added later","https://runiformity173.github.io/","image"],
 ];
