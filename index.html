@@ -39,13 +39,13 @@
             overflow: hidden;
         }
 
-        .card img {
+        .img-container img {
             height: 200px;
             object-fit: cover;
             transition: 1s ease-out;
         }
 
-        .card img:hover {
+        .img-container img:hover {
             transform: scale(1.1) rotate(3deg);
         }
 
@@ -57,6 +57,16 @@
         .btn-primary:hover {
             background-color: #0b5ed7;
         }
+
+        .github-logo {
+            width: 2rem;
+            height: 2rem;
+            cursor: pointer;
+            transition: 0.2s ease-out;
+        }
+        .github-logo:hover {
+            filter: brightness(0.8);
+        }
     </style>
 </head>
 
@@ -64,7 +74,11 @@
     <!-- Header -->
     <div class="portfolio-header">
         <h1 class="fw-bold">Eli's Portfolio</h1>
-        <p class="text-secondary">A collection of my favorite projects and websites.<br>Open a website to find instructions for it and some information about it.<br>Some sites might work on mobile, but they are only tested on a computer.</p>
+        <p class="text-secondary">A collection of my favorite projects and websites.<br>
+            Open a website to find instructions for it and some information about it.<br>
+            Some sites might work on mobile, but they are only tested on a computer.<br>
+            Click on the Github icon on a project to go to its Github page.
+        </p>
     </div>
 
     <!-- Card Grid -->
